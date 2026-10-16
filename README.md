@@ -4,34 +4,35 @@
 
 The **University Academic Management System** is a DBMS capstone project designed to manage university academic records using a relational database. It organizes information related to students, faculty, departments, courses, enrollments, and examination results.
 
-The system demonstrates how database management concepts can be used to maintain organized academic records, reduce data redundancy, and retrieve information efficiently.
+The system uses SQL queries and database constraints to maintain data integrity, reduce redundancy, and retrieve academic information efficiently.
 
 ## 🎯 Objectives
 
-- Design a database for university academic management.
-- Organize student, faculty, department, and course information.
+- Design a relational database for university academic management.
+- Store and manage student, faculty, department, and course information.
 - Manage student enrollments and examination results.
-- Maintain data integrity and consistency.
-- Demonstrate SQL operations and database normalization.
+- Maintain data integrity using primary keys, foreign keys, and constraints.
+- Perform data retrieval and analysis using SQL queries.
+- Apply database normalization up to Third Normal Form (3NF).
 
 ## 🛠️ Technologies Used
 
-- **Database Management:** Relational Database
+- **Database:** Relational Database
 - **Query Language:** SQL
 - **Version Control:** Git and GitHub
 
 ## 📚 Modules
 
-1. **Department Management** – Organizes department details.
-2. **Student Management** – Maintains student information and contact details.
-3. **Faculty Management** – Manages faculty information and department associations.
-4. **Course Management** – Maintains course details, credits, and faculty assignments.
-5. **Enrollment Management** – Organizes student course registrations and semester details.
-6. **Result Management** – Maintains examination marks, grades, and exam dates.
+1. **Department Management** – Stores department details and establishment information.
+2. **Student Management** – Maintains student details, contact information, and department associations.
+3. **Faculty Management** – Stores faculty details and department information.
+4. **Course Management** – Manages course names, credits, departments, and assigned faculty.
+5. **Enrollment Management** – Maintains student course registrations and semester details.
+6. **Result Management** – Stores examination marks, grades, and exam dates.
 
 ## 🗄️ Database Design
 
-The system is designed around seven related entities:
+The database consists of seven related tables:
 
 - Department
 - Student
@@ -41,24 +42,32 @@ The system is designed around seven related entities:
 - Enrollment
 - Results
 
-The database design uses primary keys, foreign keys, constraints, and normalization to maintain data integrity and reduce redundancy.
+The tables are connected through primary keys and foreign keys to maintain relationships and referential integrity.
 
-## ⚙️ Key Concepts
+## ⚙️ SQL Concepts Implemented
 
-- Relational Database Design
+- DDL (Data Definition Language)
+- DML (Data Manipulation Language)
 - Primary and Foreign Keys
-- Database Constraints
-- SQL Operations
-- Joins and Aggregate Functions
+- NOT NULL, UNIQUE, CHECK, and DEFAULT constraints
+- SELECT, WHERE, and ORDER BY
+- SQL JOIN operations
+- Aggregate Functions
 - GROUP BY and HAVING
 - Subqueries
 - Database Normalization (1NF, 2NF, and 3NF)
 
-## 📂 Project Contents
+## 📂 Project Files
 
-- **DOCUMENTATION.docx** – Detailed project report.
-- **Project Presentation** – Presentation explaining the project.
-- **Project Demonstration Video** – Video explaining the project, if included.
+- `README.md` – Project overview and documentation
+- `DOCUMENTATION.docx` – Detailed project report
+- `ddl.sql` – Database and table creation scripts
+- `dml.sql` – Sample data insertion scripts
+- `queries.sql` – SQL queries for retrieval and analysis
+- `er-diagram.png` – Entity-Relationship diagram, if included
+- `screenshots/` – SQL execution screenshots, if included
+- `presentation.pptx` – Project presentation, if included
+- `demo.mp4` – Project demonstration video, if included
 
 ## 🚀 Future Enhancements
 
@@ -66,19 +75,19 @@ The database design uses primary keys, foreign keys, constraints, and normalizat
 - Automated result and grade calculations.
 - Advanced academic reports and dashboards.
 - A web-based interface for students, faculty, and administrators.
-- Improved database query performance.
+- Improved query performance through indexing.
 
 ## 🎓 Academic Information
 
-- **Project Title:** University Academic Management System
-- **Project Type:** DBMS Capstone Project
-- **Department:** Artificial Intelligence and Machine Learning
-- **Institution:** Aditya University, Surampalem
-- **Academic Year:** 2026–2027
+**Project Title:** University Academic Management System  
+**Project Type:** DBMS Capstone Project  
+**Department:** Artificial Intelligence and Machine Learning  
+**Institution:** Aditya University, Surampalem  
+**Academic Year:** 2026–2027
 
 ## ✅ Conclusion
 
-The University Academic Management System demonstrates the application of relational database concepts to university academic record management. It provides a structured approach to organizing student, faculty, department, course, enrollment, and examination information.
+The University Academic Management System demonstrates how relational database concepts and SQL can be used to organize university academic records efficiently. It provides a structured database design, data integrity constraints, sample records, and SQL queries for academic data management and reporting.
 
 ---
 
